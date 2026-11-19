@@ -1,4 +1,4 @@
-# novacal-io
+# Novacal
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-novacal-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://novacal.io/
+Novacal provides a modern scheduling software platform that enables teams and businesses to book appointments, manage group meetings, and automate workflows. It offers features such as calendar sync, routing forms, collective events, and AI‑assisted scheduling, supporting integrations with Google, Outlook, iCloud, and Zoho. The service targets professionals across industries, offering white‑labeling, custom domains, and a developer API for programmatic access.
+
+**Areas:** Scheduling · SaaS · Calendar · Automation · API
+
+## Novacal on APIs.io
+
+Everything profiled for Novacal is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/novacal-io/](https://apis.io/providers/novacal-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Novacal API](https://apis.io/apis/novacal-io/novacal-api/) — API for Novacal scheduling platform, documented at the developer portal.
+- [Novacal API](https://apis.io/apis/novacal-io/novacal-io-api/) — Novacal API as documented publicly: 18 operations. Contract generated from the documentation by API Evangelist (2026-11-19); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Novacal Io Webhooks](https://apis.io/asyncapis/novacal-io/novacal-io-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1EventsIdCancelResponse](https://apis.io/schemas/novacal-io/novacal-io-get-v1-events-id-cancel-response/)
+- [GetV1WebhooksIdTestResponse](https://apis.io/schemas/novacal-io/novacal-io-get-v1-webhooks-id-test-response/)
+- [PostV1ContactsResponse](https://apis.io/schemas/novacal-io/novacal-io-post-v1-contacts-response/)
+- [PostV1EventsResponse](https://apis.io/schemas/novacal-io/novacal-io-post-v1-events-response/)
+- [PutV1EventsIdCancelResponse](https://apis.io/schemas/novacal-io/novacal-io-put-v1-events-id-cancel-response/)
+- [PutV1EventsIdResponse](https://apis.io/schemas/novacal-io/novacal-io-put-v1-events-id-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Novacal Io Context](https://apis.io/jsonld/novacal-io/novacal-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Novacal API Rules](https://apis.io/rules/novacal-io/novacal-io-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Novacal Domain Security](https://apis.io/security/novacal-io/novacal-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Novacal Plans Pricing](https://apis.io/plans/novacal-io/novacal-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://novacal.io/)
+- [Documentation](https://docs.novacal.io/)
+- [API reference](https://docs.novacal.io/)
+- [Pricing](https://novacal.io/pricing)
+- [Support](https://help.novacal.io/)
+- [Blog](https://novacal.io/blog)
+- [Terms of service](https://novacal.io/terms-of-service)
+- [Privacy policy](https://novacal.io/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 46.7** — developing · rubric 0.28.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 52.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.1 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 48.5 |
+
+**Agent readiness 25.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/novacal-io/](https://apis.io/providers/novacal-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Novacal: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/novacal-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
